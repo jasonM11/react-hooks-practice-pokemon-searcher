@@ -2,14 +2,16 @@ import React from "react";
 import PokemonCard from "./PokemonCard";
 import { Card } from "semantic-ui-react";
 
-function PokemonCollection({ pokemon }) {
+function PokemonCollection() {
   return (
     <Card.Group itemsPerRow={6}>
-      {pokemon.map((poke) => (
-        <PokemonCard key={poke.id} pokemon={poke} />
-      ))}
+      <h1>Hello From Pokemon Collection</h1>
     </Card.Group>
   );
 }
 
 export default PokemonCollection;
+//*The PokemonCollection component then maps over the pokemon 
+//array and renders a PokemonCard component for each Pokémon. 
+//The PokemonCard component is passed the current Pokémon object as a prop, 
+//and it is given a unique key prop based on the Pokémon's id field.
