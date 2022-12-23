@@ -1,4 +1,4 @@
-# Practice Challenge: Pokemon Searcher
+ n# Practice Challenge: Pokemon Searcher
 
 ![Pokemon search screen recording](https://curriculum-content.s3.amazonaws.com/react/pokemon.gif)
 
